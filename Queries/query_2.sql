@@ -19,10 +19,10 @@ WITH grupos AS (SELECT
 ),
 filtrado AS (SELECT
     det.calls_ivr_id
-  , COALESCE(NULLIF(det.document_type, 'NULL'), NULLIF(steps.document_type, 'NULL')) document_type
-  , COALESCE(NULLIF(det.document_identification, 'NULL'), NULLIF(steps.document_identification, 'NULL')) document_identification
-  , COALESCE(NULLIF(det.customer_phone, 'NULL'), NULLIF(steps.customer_phone, 'NULL')) customer_phone
-  , COALESCE(NULLIF(det.billing_account_id, 'NULL'), NULLIF(steps.billing_account_id, 'NULL')) billing_account_id
+  , NULLIF(det.document_type, 'NULL') AS document_type
+  , NULLIF(det.document_identification, 'NULL') AS document_identification
+  , NULLIF(det.customer_phone, 'NULL') AS customer_phone
+  , NULLIF(det.billing_account_id, 'NULL') AS billing_account_id
 FROM keepcoding.ivr_detail det
 LEFT
   JOIN keepcoding.ivr_steps steps
@@ -68,8 +68,6 @@ LEFT JOIN grupos
 ON filtrado.calls_ivr_id = grupos.ivr_id
 LEFT JOIN keepcoding.ivr_detail det
 ON grupos.ivr_id = det.calls_ivr_id
-LEFT JOIN keepcoding.ivr_steps steps
-USING (ivr_id)
 GROUP BY
     grupos.ivr_id
   , grupos.phone_number
