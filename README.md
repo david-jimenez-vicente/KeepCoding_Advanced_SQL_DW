@@ -1,2 +1,28 @@
-# KeepCoding_Advanced_SQL_DW
- Repositorio para la asignatura de SQL avanzado y creación de DataWarehouses
+## Repositorio para la asignatura de "SQL avanzado, ETL y creación de DataWarehouses"
+## Repository for "Advanced SQL, ETL and DataWarehouses creation" subject
+
+ ---
+ ### *Contenido del repositorio*  
+ ·
+ ·
+ ·
+ ### *Repository content*  
+ ·
+ ·
+ ·
+ ---  
+
+ ### *Descripción del proyecto*
+ ·
+ ·
+ ·
+ ·
+ ·
+
+
+ ### *Project description*  
+ ·
+ ·
+ ·
+ ·
+ ·
