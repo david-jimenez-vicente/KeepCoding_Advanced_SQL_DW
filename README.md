@@ -16,7 +16,7 @@
  · El fin de este proyecto era crear un Data Warehouse, obteniendo datos de diversos procesos distintos (archivos .csv de la carpeta "Data"), procesándolos con técnicas de ETL (Extraction-Transformation-Load), y creando una fuente maestra con los datos ya homogeneizados (usar query_1), y creando Data Marts más específicos (usar query_2). También hemos creado una demostración de uso de funciones personalizadas para modularización de código (usar query_3).  
  · En vez de usar la técnica pura ETL, hemos usado la tendencia más en alza, ELT (Extraction-Load-Transformation), alterando el orden de las fases de obtención de los datos, que asegura disponer de estos datos originales sin tratar para poder hacer cambios en el proyecto si el este cambia en el futuro, siendo esto rentable gracias al abaratamiento del almacenamiento de grandes cantidades de datos (Big Data) en servicios en Nube.  
 
-### *Project description*
+### *Project description*  
 · In this module we have worked on functions, query structures and advanced problem-solving techniques to create a Data Warehouse based on a real business case, which could be used as a basis in a real company.  
 One of the objectives of this module was to learn how Cloud Computing works to create a Data Warehouse.
 · We have used one of the Data Processing standards in the cloud, Google BigQuery, belonging to the Google Cloud services cloud.  
