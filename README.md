@@ -1,5 +1,5 @@
-## Repositorio para la asignatura de "SQL avanzado, ETL y creación de DataWarehouses"  
-## Repository for "Advanced SQL, ETL and DataWarehouses creation" subject  
+## Repositorio para práctica "SQL avanzado, ETL y creación de DataWarehouses"  
+## Repository for "Advanced SQL, ETL and DataWarehouses creation" project  
  ---
 ### *Contenido del repositorio*  
  · Carpeta "Data": Contiene los 3 datasets en formato .csv necesarios para crear las tablas de datos en el DBMS, necesarias a su vez para alimentar los scripts de SQL que harán el trabajo de creación y primer filtrado del Data Warehouse.
